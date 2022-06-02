@@ -1,0 +1,136 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.HeaderBox {
+  background-color: blue;
+  flex-basis: 100%;
+  height: 10vh;
+  width: 1582px;
+  margin-left: -8px;
+  margin-top: -10px;
+  display: flex;
+  position: fixed;
+}
+
+.MainpageBox {
+  margin-top: -640px;
+  line-height: 2;
+  flex-basis: 80%;
+  flex-grow: 0;
+  left: 200px;
+  margin-left: 20rem;
+}
+
+.navbar {
+  background-color: #060b26;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #060b26;
+  width: 200px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  /* position: fixed; */
+  top: 0;
+  left: -100%;
+}
+
+.nav-menu.active {
+  top: 72.3px;
+  left: 0%;
+  height: 640px;
+  transition: 350ms;
+  width: 250px;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  width: 250px;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 16px;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 2px;
+}
+
+.nav-text a:hover {
+  background-color: #1a83ff;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #060b26;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
+.DashboardPictures {
+  padding: 10px 10px 10px 10px;
+  height: 180px;
+  width: 180px;
+  margin-left: 50px;
+}
+
+.PageHeader {
+}
+
+.BarChartBigBox {
+  margin-left: 0;
+  left: 0;
+  margin-bottom: -10%;
+}
+
+.StockItemBox {
+}
+
+.StockItemBox a {
+}
+
+.StockItemBox a:hover {
+  background-color: red;
+}
+
+.LoginPage {
+  align-items: center;
+  margin-left: 660px;
+}
+
+.Account {
+}
